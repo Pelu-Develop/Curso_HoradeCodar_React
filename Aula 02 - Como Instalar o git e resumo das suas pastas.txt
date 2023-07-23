@@ -1,0 +1,41 @@
+- Para instalar o React vamos utilizar uma ferramenta chamada "Create React App" (Um instalador de React)
+
+- Recebemos todos os arquivos da biblioteca e temos como executá-la (Vamos receber todos os arquivos da biblioteca)
+
+- Para utilizar precisamos do Node e também npm (Como vamos instalar os pacotes)
+
+- Esta ferramenta também otimiza o app gerado para produção (Vantagem de utilizar o React)
+
+- É possível iniciar a aplicação com "npm start" (Maneira de como iniciar no navegador um projeto de React)
+
+- Tem um site chamado "https://create-react-app.dev" , aqui vai ter toda a documentação e o passo a passo para inicialização
+
+- Vamos utilizar o comando no terminal "npx create-react-app my-app" para iniciar a instalação do react
+
+- A parte "create-react-app" estar executando um comando,ja a parte "my-app" é para dar o nome para o nosso projeto ou aplicação
+
+- Depois de instalado podemos usar o comando "npm start" para executar o react
+
+- Lembrar de executar o comando "npm start" na pasta nome do meu projeto
+
+• Para abaixo a explicação dos arquivos gerados por react
+
+- Ele gera um "Readme.md" para dizer como funciona
+
+- "Package.json" vai listar as dependências que ele gerou
+
+- "gitignore" são para não mandar todos os arquivos para o git, quando for feito o git push
+
+- "node_modules" é onde fica toda as nossas ferramentas do React
+
+- "public" vai estar com alguns arquivos de logo do nosso projeto e vai estar com o nosso index.html que é por onde o nosso react se inicia
+
+- "src" é a parte que vamos fazer mais as nossas alterações, vai ter as nossas aplicações de JavaScript, CSS,
+
+- "index.Js" é o nosso arquivo base da nossa aplicação
+
+- "index.css" é onde fica o nosso CSS global da nossa aplicação
+
+- "app.js" é onde vai estar as coisas que estão aparecendo na nossa aplicação
+
+- "app.css" é que vamos utilizar para o css do nosso app.js

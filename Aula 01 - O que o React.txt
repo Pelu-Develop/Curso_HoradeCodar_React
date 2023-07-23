@@ -1,0 +1,11 @@
+- Uma biblioteca JS para criação de interfaces; "Front-end"
+
+- Utilizado para construir SPA's (Single Page Application); "Ter um arquivo index que roda toda a aplicação"
+
+- Baseado em Componentes; "é como é dividido"
+
+- Utiliza o JSX para renderizar HTML; "Poder colocar HTML em JavaScript"
+
+- E aplica o Virtual DOM para realizar as alterações de DOM; "Ele altera automaticamente"
+
+- Podemos adicionar a um projeto ou criar um projeto com ele;
