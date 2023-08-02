@@ -1,0 +1,7 @@
+• Podemos definir tipos para as props, realizando uma espécie de validação;
+
+• Definimos em um objeto chamada propTypes no próprio componente;
+
+• E ainda há a possibilidade de definir um valor padrão;
+
+• Neste caso utilizamos o objeto defaultProps;
