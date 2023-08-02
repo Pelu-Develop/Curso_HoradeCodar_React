@@ -6,6 +6,7 @@ import HelloWorld from "./components/HelloWorld";
 import SayMyName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
 import Pessoa2 from "./components/Pessoa2";
+import List from "./components/List";
 
 function App() {
   /* Loca na nossa JSX que podemos colocar variáveis para utilizar no HTML */
@@ -49,6 +50,7 @@ function App() {
       <Pessoa nome="Jose" idade="35" profissao="bombeiro" foto="https://via.placeholder.com/150" />
 
       <Pessoa2 nome="Maria" idade="40" profissao="Modelo" foto="https://via.placeholder.com/300" />
+      <List />
     </div>
   );
 }

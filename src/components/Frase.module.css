@@ -1,0 +1,16 @@
+/* Não se pode colocar no CSS do react o "-", porque da conflito */
+/* é recomendado usar "_" ou camelCase (Ex: PedroLucas) para dar nome as classes */
+
+/* Podemos digitar CSS normalmente logo em seguida */
+.fraseContainer {
+  background-color: #333;
+  border: 1px solid #111;
+}
+
+.frase_Content {
+  color: #fff;
+  background-color: #333;
+  margin: 0;
+}
+
+/* Continuação da utilização do CSS no arquivo Frase.js */
