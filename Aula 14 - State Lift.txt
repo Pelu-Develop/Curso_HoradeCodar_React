@@ -1,0 +1,7 @@
+• State Lift pe uma tecnica utilizada para compartilhar o state;
+
+• é normal vários componentes dependerem do mesmo estado;
+
+• Então precisamos elevar o nível do mesmo a um componente pai;
+
+• Então centralizamos o state no pai. e definimos quem usar e quem define (setState);

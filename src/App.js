@@ -9,6 +9,10 @@ import Pessoa2 from "./components/Pessoa2";
 import List from "./components/List";
 import Evento from "./components/Evento";
 import Form from "./components/Form";
+import Condicional from "./components/Condicional";
+import OutraLista from "./components/OutraLista";
+import { useState } from "react";
+import SeuNome from "./components/SeuNome";
 
 function App() {
   /* Loca na nossa JSX que podemos colocar variáveis para utilizar no HTML */
@@ -25,6 +29,10 @@ function App() {
 
   /* Maneira de colocar uma imagem dinâmica */
   const url = "https://via.placeholder.com/150";
+
+  const meusItens = ["React", "Vue", "Angular"];
+
+  const [nome2, setNome2] = useState();
 
   return (
     /* Temos que tudo que vamos mandar para o React colocar numa div */
@@ -57,6 +65,12 @@ function App() {
       <Evento numero="1" />
       <Evento numero="2" />
       <Form />
+      <h1>Renderização Condicional</h1>
+      <Condicional />
+      <h1>Renderização de Listas</h1>
+      <OutraLista itens={meusItens} />
+      <h1>State Lift</h1>
+      <SeuNome setNome={setNome2} name={nome2} />
     </div>
   );
 }
